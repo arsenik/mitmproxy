@@ -6,7 +6,7 @@ Ignore Domains
 There are two main reasons why you may want to exempt some traffic from mitmproxy's interception
 mechanism:
 
-- **Certificate pinning:** Some traffic is is protected using `Certificate Pinning`_ and
+- **Certificate pinning:** Some traffic is protected using `Certificate Pinning`_ and
   mitmproxy's interception leads to errors. For example, the Twitter app, Windows Update or
   the Apple App Store fail to work if mitmproxy is active.
 - **Convenience:** You really don't care about some parts of the traffic and just want them to go
